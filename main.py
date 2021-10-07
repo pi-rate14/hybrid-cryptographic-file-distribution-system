@@ -42,7 +42,7 @@ def main():
     (C1_multimedia, C2_multimedia) = ecc.encryption(public_key, data_for_ecc)
 
     cipher = {
-        "file_type": "text",
+        "file_type": file_type,
         "C1_aesKey": C1_aesKey,
         "C2_aesKey": C2_aesKey,
         "C1_multimedia": C1_multimedia,
