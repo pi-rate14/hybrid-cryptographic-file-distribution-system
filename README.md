@@ -8,7 +8,7 @@
 2. ECC key pair is generated.
 3. AES key is encrypted using ECC
 4. File is encrypted using the encrypted AES key
-5. 128 bit File is again encrypted using ECC
+5. AES encrypted file is again encrypted using ECC
 6. Cipher data is transferred using socket to the clients
 7. Clients use the Cipher to decrypt the file using ECC and AES
 
